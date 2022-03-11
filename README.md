@@ -1,4 +1,4 @@
-## movies recommendation sysytem 
+## movies recommendation system 
 
 
 >>project idea : Recommendation systems are everywhere, be it an online purchasing app, movie streaming app or music streaming.
