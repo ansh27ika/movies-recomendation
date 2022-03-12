@@ -80,11 +80,19 @@ This similarity score is obtained measuring the similarity between the text deta
 So, similarity score is the measure of similarity between given text details of two items. 
 This can be done by cosine-similarity.
 
-How Cosine Similarity works?
+>>How Cosine Similarity works?
 Cosine similarity is a metric used to measure how similar the documents are irrespective of their size.
 Mathematically, it measures the cosine of the angle between two vectors projected in a multi-dimensional space.
 The cosine similarity is advantageous because even if the two similar documents are far apart by the Euclidean distance (due to the size of the document), 
 chances are they may still be oriented closer together. The smaller the angle, higher the cosine similarity.
+>>observation 
+>>on checking distribution of data: 
+1. BUDGET 
+we can clearly see that it is a right skewed data with its tail in the +ve side of the distribution.I.E most of the movies having budget more than 0 X 10^-8.
+2. VOTE COUNT:
+we can clearly see that it is a right skewed data with its tail in the +ve side of the distribution.I.E most of the movies having vote count between 0 to 2000 or above.
+3.POPULARITY: 
+we can clearly see that it is a right skewed data with its tail in the +ve side of the distribution.I.E most of the movies  having popularity between 0 to 200 or above 
 
 	
 
